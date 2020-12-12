@@ -8,7 +8,7 @@ if os.path.exists("list.json"):
 else:
   print("Dosya mevcut değil, yeniden indiriliyor.")
 
-url = 'https://raw.githubusercontent.com/MISP/misp-warninglists/main/lists/vpn-ipv4/list.json'
+url = '<URL>'
 filename = wget.download(url)
 
 with open('list.json') as f:
