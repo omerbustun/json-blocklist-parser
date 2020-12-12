@@ -5,10 +5,11 @@ import os
 
 if os.path.exists("list.json"):
   os.remove("list.json")
+  print("Eski dosya mevcut, siliniyor...")
 else:
-  print("Dosya mevcut değil, yeniden indiriliyor.")
+  print("Dosya mevcut değil, indiriliyor...")
 
-url = 'URL'
+url = 'https://raw.githubusercontent.com/MISP/misp-warninglists/main/lists/vpn-ipv4/list.json'
 filename = wget.download(url)
 
 with open('list.json') as f:
