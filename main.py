@@ -18,7 +18,7 @@ with open('list.json') as f:
 
 file = open('IP_Listesi.txt', 'w+')
 file.write(str(data["list"]))
-
+print("TXT dosyası oluşturuldu...")
 with open('IP_Listesi.txt', 'r') as file :
   filedata = file.read()
 
