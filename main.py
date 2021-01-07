@@ -34,3 +34,5 @@ with open('IP_Listesi.txt', 'w') as file:
 print("Çıktı oluşturuldu...")
 
 file.close()
+
+return 0 if (a == 0) + (b == 0) else None
