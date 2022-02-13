@@ -1,5 +1,5 @@
 # JSON Blocklist Parser
 
-Bu script GitHub'dan (veya başka bir kaynaktan) .json formatındaki firewall blocklist'leri çekip operatorleri ve parantezleri temizleyerek firewall'lara input olarak girilmek üzere .txt formatında liste olarak çıktı verir.
+This script pulls firewall blocklists in .json format from GitHub (or any other source), clears operators and parentheses, and outputs a list in .txt format for feeding to firewalls.
 
-Kullanmak için 'URL' yazan yere kendi URL'nizi girin.
+To use it, enter your own URL where it says 'URL'.
